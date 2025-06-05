@@ -10,6 +10,6 @@ class StatusController {
 
     @GetMapping
     fun getStatus(): String {
-        return "Everything cool!"
+        return "Everything cool! very well"
     }
 }
