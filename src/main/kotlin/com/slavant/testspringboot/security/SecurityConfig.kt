@@ -25,6 +25,8 @@ class SecurityConfig(
                 auth
                     .requestMatchers("/")
                     .permitAll()
+                    .requestMatchers("/")
+                    .permitAll()
                     .requestMatchers("/auth/**")
                     .permitAll()
                     .dispatcherTypeMatchers(
